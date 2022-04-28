@@ -129,3 +129,4 @@ buttonAC.addEventListener('click', e => {
   let currentValue = output.innerHTML
   output.innerHTML = 0
 })
+// проба изменений
