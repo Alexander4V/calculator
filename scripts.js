@@ -22,13 +22,110 @@ if (currentValue == 0) {
  }
  // output.innerHTML = output.innerHTML + numb //аналогично output.innerHTML += numb
 })
+
 button2.addEventListener('click', e => {
+let numb = e.target.dataset.value
+let currentValue = output.innerHTML
+if (currentValue == 0) {
+  output.innerHTML = numb
+  } else {
+  output.innerHTML += numb
+  }
+})
+
+button3.addEventListener('click', e => {
+ let numb = e.target.dataset.value
+ let currentValue = output.innerHTML
+ if (currentValue == 0) {
+   output.innerHTML = numb
+  } else {
+   output.innerHTML += numb
+  }
+})
+
+button4.addEventListener('click', e => {
+let numb = e.target.dataset.value
+let currentValue = output.innerHTML
+if (currentValue == 0) {
+  output.innerHTML = numb
+  } else {
+  output.innerHTML += numb
+  }
+})
+ 
+button5.addEventListener('click', e => {
+let numb = e.target.dataset.value
+let currentValue = output.innerHTML
+if (currentValue == 0) {
+  output.innerHTML = numb
+  } else {
+  output.innerHTML += numb
+  }
+})
+
+button6.addEventListener('click', e => {
+let numb = e.target.dataset.value
+let currentValue = output.innerHTML
+if (currentValue == 0) {
+  output.innerHTML = numb
+  } else {
+  output.innerHTML += numb
+  }
+})
+
+button7.addEventListener('click', e => {
   let numb = e.target.dataset.value
   let currentValue = output.innerHTML
   if (currentValue == 0) {
     output.innerHTML = numb
-   } else {
+    } else {
     output.innerHTML += numb
-   }
-   // output.innerHTML = output.innerHTML + numb //аналогично output.innerHTML += numb
-  })
+    }
+})
+
+button8.addEventListener('click', e => {
+  let numb = e.target.dataset.value
+  let currentValue = output.innerHTML
+  if (currentValue == 0) {
+    output.innerHTML = numb
+    } else {
+    output.innerHTML += numb
+    }
+})
+
+button9.addEventListener('click', e => {
+  let numb = e.target.dataset.value
+  let currentValue = output.innerHTML
+  if (currentValue == 0) {
+    output.innerHTML = numb
+    } else {
+    output.innerHTML += numb
+    }
+})
+
+button0.addEventListener('click', e => {
+  let numb = e.target.dataset.value
+  let currentValue = output.innerHTML
+  if (currentValue == 0) {
+    output.innerHTML = numb
+    } else {
+    output.innerHTML += numb
+    }
+})
+
+buttonDecimal.addEventListener('click', e => {
+  let numb = e.target.dataset.value
+  let currentValue = output.innerHTML
+  if (currentValue !== 0) {
+    output.innerHTML += numb
+    } else {
+    output.innerHTML = 0 + numb
+    }
+  
+})
+
+buttonAC.addEventListener('click', e => {
+  let numb = e.target.dataset.value
+  let currentValue = output.innerHTML
+  output.innerHTML = 0
+})
